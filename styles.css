@@ -6,3 +6,8 @@
 	margin: 0 auto;
 }
 
+.quote {
+	text-align: center;
+	font-style: italic;
+	margin-top: 20px
+}
