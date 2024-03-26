@@ -1,5 +1,5 @@
 
-.hero-image{
+.hero-image img{{
 	max-width: 100%;
 	height: auto;
 	display: block;
@@ -20,7 +20,7 @@ nav {
 }
 
 nav a {
-	color: #fff;
+	color: #8A2BE2;
 	text-decoration: none;
 	margin: 0 10px;
 }
