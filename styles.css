@@ -1,15 +1,10 @@
-
-.hero-image img{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
-}
-
-.quote {
-	text-align: center;
-	font-style: italic;
-	margin-top: 20px
+body {
+	
+	background: #2a0040;
+	color: #fff;
+	font-family: Arial, Sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 nav {
@@ -23,4 +18,21 @@ nav a {
 	color: #8A2BE2;
 	text-decoration: none;
 	margin: 0 10px;
+}
+
+.welcome-section {
+	text-align: center;
+	padding: 50px;
+	background-color: #0C0714;
+	box-shadow: 0 0 10px 5px rgba(138,43,226,0.7);
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: -1;
 }
