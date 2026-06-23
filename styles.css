@@ -22,10 +22,27 @@ nav a {
 
 .welcome-section {
 	position: relative;
-	text-align: center;
 	padding: 50px;
+	min-height: 40vh;
+	display: flex;
+	justify-content: center;
 	background-color: #0C0714;
-	box-shadow: 0 0 10px 5px rgba(138,43,226,0.7);
+	box-shadow: 0 0 5px 5px rgba(138,43,226,0.7);
+	background-image: url("Content/lunarImage.png");
+	background-size: 70%;
+	background-position: center;
+	align-items: center;
+	background-repeat: no-repeat;
+}
+
+.hero-welcome {
+	background: rgba(40,40,40,0.65);
+	backdrop-filter: blur(8px);	
+	padding: 2rem 4rem;
+	width: fit-content;
+	max-width: 700px;
+	text-align: center;
+	border-radius: 20px;
 }
 
 .overlay {
@@ -51,4 +68,36 @@ nav a {
 	text-decoration: underline;
 }
 
+.preview-section {
+	padding: 4rem 2rem;
+}
+
+.preview-section h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 2rem;
+}
+
+.preview-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+}
+
+.preview-card {
+	background: #18141f;
+	border: 1px solid #2a2440;
+	border-radius: 12px;
+	padding: 1.5rem;
+	transition: transform 0.3s ease;
+}
+
+.preview-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.preview-card:hover {
+	transform: translateY(-5px);
+}
 	
