@@ -96,3 +96,26 @@ nav a {
 	transform: translateY(-5px);
 }
 	
+@media (max-width: 768px) {
+	.welcome-section {
+		padding: 25px;
+		min-height: 20vh;
+		background-position: center;
+	}
+	.hero-welcome {
+		padding: 1.5rem;
+		max-width: 75%;
+		border-radius: 15px;
+		background: rgba(40,40,40,0.35);
+		backdrop-filter: blur(2px);
+	}
+	.hero-welcome h1{
+		font-size: 1.2rem;	
+	}
+	.hero-welcome h2{
+		font-size: 1.1rem;
+	}
+	.hero-welcome p{
+		font-size: 1rem;
+	}
+}
