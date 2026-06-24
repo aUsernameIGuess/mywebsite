@@ -10,8 +10,8 @@ body {
 nav {
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
-	text-align: center;
+	padding: 20px;
+	text-align: right;
 }
 
 nav a {
@@ -28,9 +28,9 @@ nav a {
 	justify-content: center;
 	background-color: #0C0714;
 	box-shadow: 0 0 5px 5px rgba(138,43,226,0.7);
-	background-image: url("https://github.com/aUsernameIGuess/mywebsite/blob/main/Content/lunarImage.png");
-	background-size: 70%;
-	background-position: center;
+	background-image: url("./Content/bannerImg.png");
+	background-size: cover;
+	background-position: center 70%;
 	align-items: center;
 	background-repeat: no-repeat;
 }
@@ -43,12 +43,7 @@ nav a {
 	max-width: 700px;
 	text-align: center;
 	border-radius: 20px;
-}
-
-.overlay {
-	position: relative;
-	background-color: rgba(0,0,0,0.8);
-	z-index: -1;
+	box-shadow: 0 0 5px 5px rgba(138,43,226,0.7);
 }
 
 .news-section{ 
