@@ -87,9 +87,17 @@ nav a {
 	transition: transform 0.3s ease;
 }
 
+.preview-card h3 {
+	text-decoration: underline;
+	text-decoration-color: rgba(138,43,226,0.7);
+	text-decoration-thickness: 2px;
+	text-underline-offset: 4px;
+}
+
+
 .preview-card img {
 	width: 100%;
-	height: auto;
+	height: 350px;
 	display: block;
 }
 .preview-card:hover {
